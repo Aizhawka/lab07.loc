@@ -145,7 +145,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <?php if(!empty($mess)) : ?>
     <?php foreach($mess as $messenger) : ?>
         <div class="container">
-        <img src="<?=$messenger['img']; ?>" alt="avatar" style="width:100%;">
+       <img src="rose.jpg['img']" alt="avatar" style="width:100%;">
         <a href='delete.php?id=<?= $messenger['id']; ?>'>
         <a href='delete.php?id=<?= $messenger['id']; ?>'>
         <p><?=$messenger['text']; ?></p>
